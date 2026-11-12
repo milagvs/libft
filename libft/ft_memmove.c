@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static void	cpy_foward(unsigned char *d, const unsigned char *s, size_t n)
+static void	copy_foward(unsigned char *d, const unsigned char *s, size_t n)
 {
 	size_t	i;
 
