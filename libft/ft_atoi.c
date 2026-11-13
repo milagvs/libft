@@ -36,3 +36,14 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sign);
 }
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%d\n", ft_atoi("1234"));
+// 	printf("%d\n", ft_atoi("-42"));
+// 	printf("%d\n", ft_atoi("+42"));
+// 	printf("%d\n", ft_atoi("0"));
+// 	printf("%d\n", ft_atoi("00042"));
+// 	printf("%d\n", ft_atoi("          ;-42"));
+// 	return (0);
+// }
